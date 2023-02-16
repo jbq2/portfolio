@@ -1,0 +1,8 @@
+div {
+    width: 50%;
+    margin: auto;
+}
+
+ngb-panel {
+    text-align: center;
+}
