@@ -3,3 +3,12 @@
 body {
     font-family: 'Quicksand', sans-serif !important;
 }
+
+.p-hint {
+    opacity: 0.7;
+}
+
+html {
+    overflow-y: scroll;
+}
+  

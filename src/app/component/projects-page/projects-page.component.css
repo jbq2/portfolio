@@ -1,8 +1,18 @@
 div {
-    width: 50%;
+    width: 60%;
     margin: auto;
+    padding: 20px;
+}
+
+ul {
+    font-size: 100%;
 }
 
 ngb-panel {
     text-align: center;
+}
+
+.hr-display {
+    margin: auto;
+    width:70%
 }
