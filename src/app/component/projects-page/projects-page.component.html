@@ -1,0 +1,95 @@
+<div class="text-center">
+    <h1 class="display-2">Projects</h1>
+    <p class="p-hint"><i>Click to expand/collapse panels</i></p>
+    <hr class="hr-display">
+</div>
+<div>
+    <ngb-accordion #acc="ngbAccordion"> 
+        <!-- activeIds="ngb-panel-0" -->
+        <ngb-panel title="1. Simple Bank (Milestone 1)">
+            <ng-template ngbPanelContent>
+                <!-- <b>Simple Bank</b> is inspired by NJIT's IT-202 course (Internet Applications).  The tech stack for the
+                projects in that course consisted of PHP, CSS, HTML, JS, and MySQL.  I used the prompt for the Simple Bank project
+                and developed it using a different tech stack consisting of <b>Spring, Angular, and MySQL</b>.  As of February
+                16, 2023, Milestone 1 is complete, focusing on <b>user registration, login, logout, and authentication</b>. -->
+                <b>Author</b>: Joshua Quizon<br>
+                <b>Tech stack</b>: Spring, Angular, MySQL
+                <hr>   
+                <ul>
+                    <li>Handles user registration, login, logout, and profile edits</li>
+                    <li>Authenticates user JWTs by passing through Spring Security filter</li>
+                    <li>Implements template-driven forms</li>
+                    <li>Documented using JavaDoc and TypeDoc</li>
+                </ul>
+                <hr>
+                <b>Links</b>: <a href="https://github.com/jbq2/SimpleBankApi/tree/Milestone-1">API Repo</a>, <a href="https://github.com/jbq2/SimpleBankWebApp/tree/Milestone-1">Web App Repo</a>
+            </ng-template>
+        </ngb-panel>
+        <ngb-panel title="2. Semantic Segmentation of Satellite Images">
+            <ng-template ngbPanelContent>
+                <!-- <b>Semantic Segmentation of Satellite Images</b> was complete along side <b><a href="https://www.linkedin.com/in/peter-akdemir-b99243247">
+                Peter Akdemir</a></b>.  We exercised complex machine learning concepts such as data pre-processing, neural
+                networks, and hyperparameter optimization to segment different types of landmarks in satellite images.  The language used to develop 
+                this project was <b>Python</b> along with many important ML dependencies such as <b>NumPy, Pandas, TensorFlow Keras, scikit-learn, 
+                and HpBandSter</b>.  The program was developed and executed using <b>Google Colab</b>. -->
+                <b>Authors</b>: Joshua Quizon, <a href="https://www.linkedin.com/in/peter-akdemir-b99243247">Peter Akdemir</a><br>
+                <b>Tech Stack</b>: Python, NumPy, Pandas, TensorFlow, scikit-learn, HpBandSter, Google Colab
+                <hr>
+                <ul>
+                    <li>Highlights different landmarks provided in satellite images</li>
+                    <li>Pre-processes images to learning data for the model</li>
+                    <li>Hyperparameters are optimized using BOHB</li>
+                </ul>
+                <hr>
+                <b>Links</b>: <a href="https://github.com/jbq2/CS301-101-team7_SemanticSegmentation/tree/milestone-3">Repo</a>
+            </ng-template>
+        </ngb-panel>
+        <ngb-panel title="3. Simple Shop">
+            <ng-template ngbPanelContent>
+                <!-- <b>Simple Shop</b> is a project developed during NJIT's IT-202 course (internet Applications).  The project
+                emphasized full-stack development by defining a development plan, setting up milestones, documenting, and 
+                differentiating development and production versions.  The tech stack for this project consisted of PHP, HTML,
+                CSS, JavaScript, and MySQL.  Specifically, this  -->
+                <b>Author:</b> Joshua Quizon<br>
+                <b>Tech Stack</b>: PHP, HTML, CSS, MySQL
+                <hr>
+                <ul>
+                    <li>Focuses on full-stack architecture and development concepts</li>
+                    <li>Persists user sessions, information, and shopping carts</li>
+                    <li>Includes admin and shop-owner privelages</li>
+                    <li>Implements pagination, product reviews, and item checkout</li>
+                </ul>
+                <hr>
+                <b>Links</b>: <a href="https://github.com/jbq2/IT202-010">Repo</a>
+            </ng-template>
+        </ngb-panel>
+        <ngb-panel title="4. Rent-A-Car">
+            <ng-template ngbPanelContent>
+                <b>Authors</b>: Joshua Quizon, <a href="https://www.linkedin.com/in/gabrielzpascual">Gabriel Pascual</a><br>
+                <b>Tech Stack</b>: PHP, HTML, CSS, MySQL
+                <hr>
+                <ul>
+                    <li>Exercises great database design concepts</li>
+                    <li>Database is normalized to 3rd normal form</li>
+                    <li>Complex queries provide reservation details, user agreements, and car info</li>
+                </ul>
+                <hr>
+                <b>Links</b>: <a href="https://github.com/jbq2/PUBLIC_CS331_RentACar">Repo</a>
+            </ng-template>
+        </ngb-panel>
+        <ngb-panel title="5. Simple Programming Language">
+            <ng-template ngbPanelContent>
+                <b>Authors</b>: Joshua Quizon<br>
+                <b>Tech Stack</b>: C++
+                <hr>
+                <ul>
+                    <li>Pascal-like, interpreted programming language</li>
+                    <li>Implements a lexer, parser, and interpreter</li>
+                    <li>Can perform simple arithmetic, print statements and error stack traces</li>
+                </ul>
+                <hr>
+                <b>Links</b>: <a href="https://github.com/jbq2/PUBLIC_CS331_RentACar">Repo</a>
+            </ng-template>
+        </ngb-panel>
+    </ngb-accordion>
+</div>
