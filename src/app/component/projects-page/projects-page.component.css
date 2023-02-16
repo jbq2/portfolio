@@ -1,4 +1,10 @@
-div {
+.heading {
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+}
+
+.accordion-container {
     width: 60%;
     margin: auto;
     padding: 20px;
