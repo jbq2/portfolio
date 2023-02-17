@@ -9,6 +9,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ProjectsPageComponent } from './component/projects-page/projects-page.component';
 import { HomePageComponent } from './component/home-page/home-page.component';
 import { LandingPageComponent } from './component/landing-page/landing-page.component';
+import { AboutMePageComponent } from './component/about-me-page/about-me-page.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { LandingPageComponent } from './component/landing-page/landing-page.comp
     NavbarComponent,
     ProjectsPageComponent,
     HomePageComponent,
-    LandingPageComponent
+    LandingPageComponent,
+    AboutMePageComponent
   ],
   imports: [
     BrowserModule,
