@@ -8,13 +8,15 @@ import { NavbarComponent } from './component/navbar/navbar.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ProjectsPageComponent } from './component/projects-page/projects-page.component';
 import { HomePageComponent } from './component/home-page/home-page.component';
+import { LandingPageComponent } from './component/landing-page/landing-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     ProjectsPageComponent,
-    HomePageComponent
+    HomePageComponent,
+    LandingPageComponent
   ],
   imports: [
     BrowserModule,

@@ -12,3 +12,8 @@ html {
     overflow-y: scroll;
 }
   
+
+hr {
+    width: 400px;
+    margin: auto;
+}

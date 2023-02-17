@@ -1,7 +1,7 @@
 .heading {
     width: 60%;
     margin: auto;
-    padding: 20px;
+    padding: 5px;
 }
 
 .accordion-container {
@@ -16,9 +16,4 @@ ul {
 
 ngb-panel {
     text-align: center;
-}
-
-.hr-display {
-    margin: auto;
-    width:70%
 }
