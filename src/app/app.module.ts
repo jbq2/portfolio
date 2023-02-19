@@ -4,7 +4,6 @@ import { RouterModule } from '@angular/router';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './component/navbar/navbar.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ProjectsPageComponent } from './component/projects-page/projects-page.component';
 import { HomePageComponent } from './component/home-page/home-page.component';
@@ -15,7 +14,6 @@ import { ExperiencePageComponent } from './component/experience-page/experience-
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent,
     ProjectsPageComponent,
     HomePageComponent,
     LandingPageComponent,
