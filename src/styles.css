@@ -36,3 +36,15 @@ html {
     width: 400px;
     margin: auto;
 }
+
+.accordion-container {
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+}
+
+.item-card-container {
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+}
