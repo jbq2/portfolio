@@ -48,3 +48,8 @@ html {
     margin: auto;
     padding: 20px;
 }
+
+.carousel-container {
+    width: 60%;
+    margin: auto;
+}
