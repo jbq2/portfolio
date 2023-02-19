@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <div class="heading text-center">
     <h1 id="anchor-projects" class="display-2">Projects</h1>
     <p class="p-hint"><i>Click to expand/collapse panels</i></p>
@@ -6,7 +8,10 @@
 <div class="accordion-container">
     <ngb-accordion #acc="ngbAccordion"> 
         <!-- activeIds="ngb-panel-0" -->
-        <ngb-panel title="1. Simple Bank (Milestone 1)">
+        <ngb-panel>
+            <ng-template ngbPanelTitle>
+                <span> <i class="fa fa-bank"></i> Simple Bank (Milestone 1)</span>
+            </ng-template>
             <ng-template ngbPanelContent>
                 <!-- <b>Simple Bank</b> is inspired by NJIT's IT-202 course (Internet Applications).  The tech stack for the
                 projects in that course consisted of PHP, CSS, HTML, JS, and MySQL.  I used the prompt for the Simple Bank project
@@ -25,7 +30,10 @@
                 <b>Links</b>: <a href="https://github.com/jbq2/SimpleBankApi/tree/Milestone-1">API Repo</a>, <a href="https://github.com/jbq2/SimpleBankWebApp/tree/Milestone-1">Web App Repo</a>
             </ng-template>
         </ngb-panel>
-        <ngb-panel title="2. Semantic Segmentation of Satellite Images">
+        <ngb-panel>
+            <ng-template ngbPanelTitle>
+                <span> <i class="fa fa-space-shuttle"></i> Semantic Segmentation of Satellite Images</span>
+            </ng-template>
             <ng-template ngbPanelContent>
                 <!-- <b>Semantic Segmentation of Satellite Images</b> was complete along side <b><a href="https://www.linkedin.com/in/peter-akdemir-b99243247">
                 Peter Akdemir</a></b>.  We exercised complex machine learning concepts such as data pre-processing, neural
@@ -44,7 +52,10 @@
                 <b>Links</b>: <a href="https://github.com/jbq2/CS301-101-team7_SemanticSegmentation/tree/milestone-3">Repo</a>
             </ng-template>
         </ngb-panel>
-        <ngb-panel title="3. Simple Shop">
+        <ngb-panel>
+            <ng-template ngbPanelTitle>
+                <span><i class="fa fa-shopping-cart"></i> Simple Shop</span>
+            </ng-template>
             <ng-template ngbPanelContent>
                 <!-- <b>Simple Shop</b> is a project developed during NJIT's IT-202 course (internet Applications).  The project
                 emphasized full-stack development by defining a development plan, setting up milestones, documenting, and 
@@ -63,7 +74,10 @@
                 <b>Links</b>: <a href="https://github.com/jbq2/IT202-010">Repo</a>
             </ng-template>
         </ngb-panel>
-        <ngb-panel title="4. Rent-A-Car">
+        <ngb-panel>
+            <ng-template ngbPanelTitle>
+                <span> <i class="fa fa-car"></i> Rent-A-Car</span>
+            </ng-template>
             <ng-template ngbPanelContent>
                 <b>Authors</b>: Joshua Quizon, <a href="https://www.linkedin.com/in/gabrielzpascual">Gabriel Pascual</a><br>
                 <b>Tech Stack</b>: PHP, HTML, CSS, MySQL
@@ -77,7 +91,10 @@
                 <b>Links</b>: <a href="https://github.com/jbq2/PUBLIC_CS331_RentACar">Repo</a>
             </ng-template>
         </ngb-panel>
-        <ngb-panel title="5. Simple Programming Language">
+        <ngb-panel>
+            <ng-template ngbPanelTitle>
+                <span> <b style="font-size:11px">&lt;/&gt;</b> Simple Programming Language</span>
+            </ng-template>
             <ng-template ngbPanelContent>
                 <b>Authors</b>: Joshua Quizon<br>
                 <b>Tech Stack</b>: C++

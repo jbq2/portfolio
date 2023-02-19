@@ -23,13 +23,6 @@ html {
     font-size: 18px;
 }
 
-#btt {
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    width: 50px;
-}
-
 .btn:hover {
     background-color: black;
     border-color:black;
@@ -41,5 +34,22 @@ html {
 
 .hr-subject {
     width: 400px;
+    margin: auto;
+}
+
+.accordion-container {
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+}
+
+.item-card-container {
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+}
+
+.carousel-container {
+    width: 60%;
     margin: auto;
 }
