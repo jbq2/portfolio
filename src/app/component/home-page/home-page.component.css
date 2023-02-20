@@ -15,10 +15,3 @@ hr {
 .p-contact {
     font-size:18px;
 }
-
-#btt {
-    position: fixed;
-    bottom: 20px;
-    right: 20px; 
-    width: 50px;
-}
