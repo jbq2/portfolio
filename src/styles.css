@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap');
 
+
 body {
     font-family: 'Quicksand', sans-serif !important;
 }
@@ -52,4 +53,64 @@ html {
 .carousel-container {
     width: 60%;
     margin: auto;
+}
+
+.about-container {
+    width: 60%;
+    margin: auto;
+}
+
+.anchors-container {
+    text-align:center;
+    margin: auto;
+}
+
+#btt {
+    position:fixed;
+    width:auto;
+    bottom:0;
+    right:0;
+    margin-left: auto;
+    margin-right:10px;
+    text-align: center;
+    margin-bottom:10px;
+}
+
+@media (max-width: 800px) {
+
+    .anchors-container a{
+        margin:auto;
+        font-size:15px;
+        text-align:center;
+        margin-right:5px;
+        margin-left:5px;
+        width:110px;
+    }
+
+    .accordion-container {
+        width: 85%;
+        margin: auto;
+        padding: 20px;
+    }
+
+    .about-container {
+        width: 85%;
+        margin: auto;
+    }
+
+    .carousel-container {
+        width: 100%;
+        margin: auto;
+    }
+
+    #btt {
+        position:fixed;
+        width:auto;
+        bottom:0;
+        right:0;
+        margin-left: auto;
+        margin-right:5px;
+        text-align: center;
+        margin-bottom:10px;
+    }
 }
