@@ -12,7 +12,11 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run `ng run build` to build the project. The build artifacts will be stored in the `docs/` directory.
+
+**After running the build command, move `@charset "UTF-8";` to the beginning of the style element**
+
+**Also set `href=""`**
 
 ## Running unit tests
 
